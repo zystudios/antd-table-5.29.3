@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "Bundler",
+    "resolvePackageJsonExports": true,
+    "lib": ["dom", "dom.iterable", "es2019"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["index.ts", "typings/**/*.d.ts", "components/**/*.ts", "components/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
